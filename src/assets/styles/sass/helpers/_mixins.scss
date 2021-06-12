@@ -1,0 +1,3 @@
+@mixin blockBorderBottom($h: 1px,$color: $semiGreyColor,$type: solid) {
+    border-bottom: $h $type $color;
+}

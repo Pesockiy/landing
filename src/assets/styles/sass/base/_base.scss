@@ -1,11 +1,17 @@
-.wrap {
-  overflow: hidden;
-}
-body{
-  font-size: 16px;
-  font-family: $base-font;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.text-center{
-  text-align: center;
+body{
+  font: 18px/1.2 'Roboto', sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 990px;
+  margin: 0 auto;
 }

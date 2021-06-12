@@ -9,7 +9,7 @@ module.exports = {
     assets_map : {
         vendor: [
             './src/assets/js/vendor/style-vendor.js',
-            'slick-carousel/slick/slick.min.js',
+            // 'slick-carousel/slick/slick.min.js',
         ],
         app: [
             './src/assets/js/app/style-app.js',
